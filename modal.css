@@ -1,0 +1,48 @@
+
+element.style{
+    display: block;
+  position: fixed;
+  top:50%;
+  left:50%;
+  z-index: 101;
+  margin:250px;
+  margin-top:500px, auto;
+  margin-left:500px, auto;
+
+
+}
+.modal-content{
+
+  background-color: #222;
+  border-width: 13px;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: transparent;
+
+}
+.modal-content input[type=text], input[type=password], input[type=email] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+
+   border-radius: 4px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.modal-header{
+  color: white;
+  border-bottom: 2px solid #58a0de;
+
+}
+
+.modal-header-link{
+  position: absolute;
+  right:15px;
+
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet"  type= "text/css" href="animate.css">
+ <link rel="stylesheet"  type= "text/css" href="modal.css"> 
+
+<!-- Latest compiled and minified JavaScript -->
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+      <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a>	</li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+<div class = "row">
+  
+  <div class="col-lg-4">
+  	<a href="#"> 
+   		<div class="option animated bounceInLeft">
+                    <img class="img-rounded" id="img1" width="320" height="320" alt="" src="facebookprueba.jpg">
+                     </div>
+
+                </a>
+    </div>
+
+	<div class="col-lg-4">
+  		<a href="#"> 
+  	 		<div class="option animated fadeIn">
+                    <img class="img-rounded" width="320" height="320" alt="" src="asda.jpg">
+                     </div>
+
+                </a>
+    </div>   
+
+  <a href="#"> 
+   <div class="option animated bounceInRight" >
+                    <img class="img-rounded" width="320" height="320" alt="" src="ass.jpg">
+                     </div>
+
+                </a>
+              
+              
+</div>
+</div>
+
+
+</body>
+
+<div class="container">
+<form method="post">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog" aria-hidden = "true">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>  
+         <h4 class="heading modal-header-title">Login <a data-dismiss="modal" data-toggle="modal" href="#modalSignup" class= "modal-header-link"> Sing Up </a></h4> 
+        </div>
+        <div class="modal-body" align="center">
+        	<div class="form-group">
+         		<input type="text" class="span3" class="form-control" name="eid" id="email"  placeholder="Your Email Adress" required>
+         	</div>
+         	<div class="form-group">
+              	<input type="password" class="span3" class="form-control" name="passwd" placeholder="Password" required>
+            </div>
+              	<button type="submit" class="btn btn-primary">Sign in</button>
+              	 <div class="checkbox">
+    				<label><input type="checkbox"> Remember me</label>
+  				</div>   	
+        </div>
+        <div class="modal-footer">
+        	<div class="text-center">
+        		<a href="#"> Forgot your password ? </a>
+        	</div> 
+        </div>
+      </div>
+    
+    
+    </div>
+	 
+  </div>
+ </form>
+ </div>
+  
+
+
+
+
+
+  <div class="container">
+
+  <!-- Modal of the sign up -->
+  <div class="modal fade" id="modalSignup" role="dialog" aria-hidden = "true">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>  
+          <h4 class="heading modal-header-title">Sign Up <a data-dismiss="modal" data-toggle="modal" href="#myModal" class= "modal-header-link"> Login </a></h4> 
+
+
+        </div>
+        <div class="modal-body" align="center">
+        	<input type="text" class="span3" name="Fnme" id="First_name"  placeholder="First Name" required>
+        	<input type="text" class="span3" name="Snme" id="Second_name" placeholder="Second Name " required>
+        	<input type="email" class="span3" name="eid" id="email" placeholder="Your Email Adress" required>
+        	<input type="password" class="span3" name="pwd" id="password" placeholder="Password" required>
+        	<input type="password" class="span3" name="Rpwd" id="Rpassword" placeholder="Repeat Password" required>
+        	<input type="date" class="span3" name="dob" id="dayofbirth" placeholder="Birtday" required>
+        </div>
+        <div class="modal-footer">
+        	<div class="text-center">
+        	<button type="submit" class="btn btn-primary">Join me!</button>
+        	</div> 
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+
+</html>
+
+ 
